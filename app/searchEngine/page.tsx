@@ -1,10 +1,12 @@
 import React from 'react'
-
+import  LocationSearchEngine  from '@/components/LocalSearchEngine' 
+import Hero from '@/components/hero'
 const Page = () => {
   return (
     <div>
-      <h1>Search Engine</h1>
-      <p>Welcome to the search engine page!</p>
+    <Hero />
+      <LocationSearchEngine />
+
     </div>
   )
 }
